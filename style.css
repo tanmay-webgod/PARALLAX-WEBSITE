@@ -1,0 +1,61 @@
+html,
+body{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato",sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1{
+  background-image: url(https://cdn.pixabay.com/photo/2018/11/09/08/08/forest-3804001_1280.jpg);
+  min-height: 100%;
+}
+.pimg2{
+  background-image: url(https://cdn.pixabay.com/photo/2022/10/23/13/55/autumn-7541345_1280.jpg);
+  min-height: 100%;
+}
+.pimg3{
+  background-image: url(https://cdn.pixabay.com/photo/2021/08/13/12/51/sea-6543041_1280.jpg);
+  min-height: 100%;
+}
+.pimg1 ,
+.pimg2 ,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg{
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.section{
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light{
+  background-color: black;
+  color: aliceblue;
+}
+.section-dark{
+  background-color: black;
+  color: white;
+}
+
